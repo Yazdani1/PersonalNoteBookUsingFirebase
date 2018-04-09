@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private FirebaseAuth mAuth;
     private ProgressDialog mDialog;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,14 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mAuth=FirebaseAuth.getInstance();
 
         if (mAuth.getCurrentUser()!=null){
-
             finish();
             startActivity(new Intent(getApplicationContext(),HomeActivity.class));
-
         }
-
-
-
 
         email=findViewById(R.id.edittext_email);
         password=findViewById(R.id.edittext_password);

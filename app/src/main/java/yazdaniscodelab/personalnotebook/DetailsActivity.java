@@ -76,12 +76,7 @@ public class DetailsActivity extends AppCompatActivity {
         mRecycler.setLayoutManager(layoutManager);
 
 
-
-
 //        Floating Button
-
-
-
 
     }
 
@@ -117,6 +112,14 @@ public class DetailsActivity extends AppCompatActivity {
 
                 viewHolder.setText(model.getCategoriesName());
                 viewHolder.mDate(model.getmDate());
+
+                viewHolder.myview.setOnLongClickListener(new View.OnLongClickListener() {
+                    @Override
+                    public boolean onLongClick(View view) {
+                        Toast.makeText(getApplicationContext(),"Its working",Toast.LENGTH_SHORT).show();
+                        return true;
+                    }
+                });
 
 
             }
