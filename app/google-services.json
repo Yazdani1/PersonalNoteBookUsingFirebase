@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "590684314785",
+    "firebase_url": "https://personalnotebook-96281.firebaseio.com",
+    "project_id": "personalnotebook-96281",
+    "storage_bucket": "personalnotebook-96281.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590684314785:android:20464ba2bd22ced6",
+        "android_client_info": {
+          "package_name": "yazdaniscodelab.personalnotebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590684314785-a60uibu0hn5l8gcf5id8fl2jl2n2eq45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yazdaniscodelab.personalnotebook",
+            "certificate_hash": "8bbad294121d3334a8308fc20bd2791ea06aa9c3"
+          }
+        },
+        {
+          "client_id": "590684314785-t7p5tltiqaadjidf3llf0387jihold5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDYAqL5TDqE8t0NaDKDHwp6cHVwabLQ1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590684314785-t7p5tltiqaadjidf3llf0387jihold5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

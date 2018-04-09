@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2cdc0d</color>
+
+    <!--Toolbar color-->
+
+    <color name="toolbarcolor">#FF13E45C</color>
+
+    <!--Floating button color-->
+
+    <color name="flotingbtn">#FFE4A213</color>
+
+    <!--Custom dialog box color-->
+
+    <color name="customtext">#ccb50b</color>
+
+    <color name="cusbtn">#6422A7</color>
+
+
+</resources>
